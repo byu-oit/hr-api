@@ -8,4 +8,4 @@ Because of these limitations, if there are query parameters in the url, they **_
 If you fail to specify the query parameters in the order that PeopleSoft needs, you may get an generic 500 error with no response body.
 
 ## JWT and sm_user
-Currently, PeopleSoft doesn't support JWT for authentication. This is under development, so this may change in the future. For now, it requires that the sm_user be set to the net id of the authenticated user. In WSO2, this is done automatically by adding the `AddCFrameworkHeaders` to the `In Flow` option in the `Message Mediation Policies` when the API was set up, so this shouldnt' be a concern for most subscribers.
+Currently, PeopleSoft doesn't support JWT for authentication. This is under development, so this may change in the future. For now, it requires that the sm_user be set to the net id of the authenticated user. In WSO2, this is done automatically by adding the `AddCFrameworkHeaders` to the `In Flow` option in the `Message Mediation Policies` when the API is set up, so this shouldn't be a concern for most subscribers.
