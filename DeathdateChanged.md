@@ -31,7 +31,7 @@
     </tr>
     <tr>
         <td>What does callback return?</td>
-        <td>The callback URL will return Birthdate Code data for the specified byu_id.</td>
+        <td>The callback URL will return Deathdate Code data for the specified byu_id.</td>
     </tr>
     <tr>
         <td>How do I access a history of these events?</td>
