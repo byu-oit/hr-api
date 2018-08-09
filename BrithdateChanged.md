@@ -23,7 +23,7 @@
     </tr>
     <tr>
         <td>How do I Subscribe?</td>
-        <td>Subscribe to Birth Country Changed Event</td>
+        <td>Subscribe to Birthdate Changed Event</td>
     </tr>
     <tr>
         <td>How do I Unsubscribe?</td>
