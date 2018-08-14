@@ -15,7 +15,25 @@
     </tr>
     <tr>
         <td>Examples</td>
-        <td>Sample for Deathdate Changed</td>
+        <td>Sample for Deathdate Changed<br><pre>{
+  "events": {
+    "event": {
+      "event_header": {
+        "domain": "edu.byu",
+        "entity": "HR_Personal_Action",
+        "event_type": "Deathdate Changed",
+        "source_dt": "2016-10-17-14.03.51.000000",
+        "source_id": "HR",
+        "event_id": "2016101714035102701"
+      },
+      "event_body": {
+        "byu_id": "123456789",
+        "net_id": "gocougars",
+        "callback": "https://api.byu.edu/domains/erp/hr/deathdate/v1?byu_id=123456789"
+      }
+    }
+  }
+}</pre></td>
     </tr>
     <tr>
         <td>What other Applications raise an Event Type with this same contract</td>
@@ -23,11 +41,24 @@
     </tr>
     <tr>
         <td>How do I Subscribe?</td>
-        <td>Subscribe to Deathdate Changed Event</td>
+        <td>Subscribe to Deathdate Changed Event<br><pre>curl -X POST --header "Content-Type: application/json" 
+--header "Accept: application/json" 
+--header "Authorization: Bearer //Obtain Access Token in API Store//" 
+-d "{
+  \"subscription\": {
+    \"eca_identity_id\": \"\",
+    \"entity\": \"HR_Personal_Action\",
+    \"event_type\": \"Deathdate Changed\",
+    \"domain\": \"edu.byu\",
+    \"eca_identity_name\": \"\"
+  }
+}" "https://api.byu.edu:443/eventhub/1.0.0/subscriptions"</pre></td>
     </tr>
     <tr>
         <td>How do I Unsubscribe?</td>
-        <td>Unsubscribe from Deathdate Changed Event</td>
+        <td>Unsubscribe from Deathdate Changed Event<br><pre>curl -X DELETE --header "Accept: application/json" 
+--header "Authorization: Bearer //Obtain Access Token in API Store//" 
+"https://api.byu.edu:443/eventhub/1.0.0/subscriptions/edu.byu/HR_Personal_Action/Deathdate%20Changed</pre></td>
     </tr>
     <tr>
         <td>What does callback return?</td>
