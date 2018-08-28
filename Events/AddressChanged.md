@@ -68,11 +68,11 @@
     </tr>
     <tr>
         <td>How do I Subscribe?</td>
-        <td>Subscribe to Address Changed Event<br>curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: Bearer //Obtain Access Token in API Store//" -d "{ \"subscription\": { \"eca_identity_id\": \"\", \"entity\": \"HR_Personal_Action\", \"event_type\": \"Address Changed\", \"domain\": \"edu.byu\", \"eca_identity_name\": \"\" } }" "htt<span></span>ps://api.byu.edu:443/eventhub/1.0.0/subscriptions"</td>
+        <td>Subscribe to Address Changed Event<br><pre>curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: Bearer //Obtain Access Token in API Store//" -d "{ \"subscription\": { \"eca_identity_id\": \"\", \"entity\": \"HR_Personal_Action\", \"event_type\": \"Address Changed\", \"domain\": \"edu.byu\", \"eca_identity_name\": \"\" } }" "https://api.byu.edu:443/eventhub/1.0.0/subscriptions"</pre></td>
     </tr>
     <tr>
         <td>How do I Unsubscribe?</td>
-        <td>Unsubscribe from Address Changed Event<br>curl -X DELETE --header "Accept: application/json" --header "Authorization: Bearer //Obtain Access Token in API Store//" "htt<span></span>ps://api.byu.edu:443/eventhub/1.0.0/subscriptions/edu.b<span></span>yu/HR_Personal_Action/Add<span></span>ress%20Changed</td>
+        <td>Unsubscribe from Address Changed Event<br><pre>curl -X DELETE --header "Accept: application/json" --header "Authorization: Bearer //Obtain Access Token in API Store//" "https://api.byu.edu:443/eventhub/1.0.0/subscriptions/edu.byu/HR_Personal_Action/Address%20Changed</pre></td>
     </tr>
     <tr>
         <td>What does the secure_url return?</td>
