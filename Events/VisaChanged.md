@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>Examples</td>
-        <td>Sample for Visa Changed<br><pre></pre>{
+        <td>Sample for Visa Changed<br><pre>{
   "events": {
     "-xmlns": "http://ws.byu.edu/namespace/event-hub/v1",
     "event": {
@@ -30,7 +30,7 @@
       }
     }
   }
-}</td>
+}</pre></td>
     </tr>
     <tr>
         <td>What other Applications raise an Event Type with this same contract</td>
