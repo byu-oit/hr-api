@@ -50,13 +50,13 @@
     \"domain\": \"edu.byu\",
     \"eca_identity_name\": \"\"
   }
-}" "https://api.byu.edu:443/eventhub/1.0.0/subscriptions"</pre></td>
+}" "ht<span></span>tps://api.byu.edu:443/eventhub/1.0.0/subscriptions"</pre></td>
     </tr>
     <tr>
         <td>How do I Unsubscribe?</td>
         <td>Unsubscribe from Visa Changed Event<br><pre>curl -X DELETE --header "Accept: application/json" 
 --header "Authorization: Bearer //Obtain Access Token in API Store//" 
-"https://api.byu.edu:443/eventhub/1.0.0/subscriptions/edu.byu/HR_Personal_Action/Visa%20Changed</pre></td>
+"ht<span></span>tps://api.byu.edu:443/eventhub/1.0.0/subscriptions/edu.b<span></span>yu/HR_Personal_Action/Visa%20Changed</pre></td>
     </tr>
     <tr>
         <td>What does callback return?</td>
