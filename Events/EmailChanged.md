@@ -3,7 +3,7 @@
 <table align="center">
     <tr>
         <td>Description</td>
-        <tdThe HR system will raise an event when an e-mail address is added, changed, or deleted.<br>An employee's email address is considered public data, however individuals may elect to unlist their information. Because HR does not keep track of the unlisted flag, name information is not included in the event message. A secure URL is provided for business applications that are authorized to access the unlisted information.</td>
+        <td>The HR system will raise an event when an e-mail address is added, changed, or deleted.<br>An employee's email address is considered public data, however individuals may elect to unlist their information. Because HR does not keep track of the unlisted flag, name information is not included in the event message. A secure URL is provided for business applications that are authorized to access the unlisted information.</td>
     </tr>
     <tr>
         <td>Event Definition</td>
