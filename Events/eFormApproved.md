@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td>Examples</td>
-        <td>Sample for Address Changed:<br><pre>{
+        <td>Sample for eForm Approved by the Front Desk:<br><pre>{
   "events": {
     "event": {
       "event_header": {
