@@ -76,7 +76,7 @@
     </tr>
     <tr>
         <td>What does the secure_url return?</td>
-        <td>The callback URL will return the eForm sepecified by the response.</td>
+        <td>The callback URL will return the eForm specified by the response.</td>
     </tr>
     <tr>
         <td>How do I access a history of these events?</td>
