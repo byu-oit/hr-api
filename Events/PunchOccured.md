@@ -1,4 +1,4 @@
-# Punch Occured Event
+# Punch Occurred Event
 
 <table align="center">
     <tr>
@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>Examples</td>
-        <td>Sample for Punch Occured<br><pre>{
+        <td>Sample for Punch Occurred<br><pre>{
   "events": {
     "event": {
       "event_header": {
@@ -47,7 +47,7 @@
     </tr>
     <tr>
         <td>How do I Subscribe?</td>
-        <td>Subscribe to Punch Occured Event<br><pre>curl -X POST 
+        <td>Subscribe to Punch Occurred Event<br><pre>curl -X POST 
 --header "Content-Type: application/json" 
 --header "Accept: application/json" 
 --header "Authorization: Bearer xxxxx" 
@@ -61,7 +61,7 @@
     </tr>
     <tr>
         <td>How do I Unsubscribe?</td>
-        <td>Unsubscribe from Punch Occured Event<br><pre>curl -X DELETE 
+        <td>Unsubscribe from Punch Occurred Event<br><pre>curl -X DELETE 
 --header "Accept: application/json" 
 --header "Authorization: Bearer xxxxx"
 "https://api.byu.edu:443/domains/eventhub/1.0.0/subscriptions/edu.byu/HR_Personal_Action/Punch%20occured"</pre></td>
@@ -72,7 +72,7 @@
     </tr>
     <tr>
         <td>How do I access a history of these events?</td>
-        <td>Retrieve the oldest 10 Punch Code Occured events from the Archive<br><br>curl -X GET<br>--header "Accept: application/json" <br>--header "Authorization: Bearer //Obtain Access Token in API Store//" <br>"https://<span></span>api.byu.edu:443/eventhub/1.0.0/events?count=10"</td>
+        <td>Retrieve the oldest 10 Punch Code Occurred events from the Archive<br><br>curl -X GET<br>--header "Accept: application/json" <br>--header "Authorization: Bearer //Obtain Access Token in API Store//" <br>"https://<span></span>api.byu.edu:443/eventhub/1.0.0/events?count=10"</td>
     </tr>
     <tr>
         <td>Notes</td>
