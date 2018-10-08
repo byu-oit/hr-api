@@ -1,4 +1,4 @@
-# eForm Approved Event
+# eForm Changed Event
 
 <table align="center">
     <tr>
@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td>Examples</td>
-        <td>Sample for Address Changed:<br><pre>{
+        <td>Sample for eForm Changed:<br><pre>{
   "events": {
     "event": {
       "event_header": {
@@ -76,11 +76,11 @@
     </tr>
     <tr>
         <td>What does the secure_url return?</td>
-        <td>The callback URL will return the eForm sepecified by the response.</td>
+        <td>The callback URL will return the eForm specified by the response.</td>
     </tr>
     <tr>
         <td>How do I access a history of these events?</td>
-        <td>Retrieve the most recent 10 Address Changed events from the Archive<br>curl -X GET<br>--header "Accept: application/json"<br> --header "Authorization: Bearer //Obtain Access Token in API Store//" <br>"htt<span></span>ps://api.byu.edu:443/eventhub/1.0.0/events?count=10"</td>
+        <td>Retrieve the most recent 10 eForm Changed events from the Archive<br>curl -X GET<br>--header "Accept: application/json"<br> --header "Authorization: Bearer //Obtain Access Token in API Store//" <br>"htt<span></span>ps://api.byu.edu:443/eventhub/1.0.0/events?count=10"</td>
     </tr>
     <tr>
         <td>Notes</td>

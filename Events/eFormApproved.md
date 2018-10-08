@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td>Examples</td>
-        <td>Sample for eForm Approved by the Front Desk:<br><pre>{
+        <td>Sample for eForm Approved at the Front Desk:<br><pre>{
   "events": {
     "event": {
       "event_header": {
@@ -55,13 +55,13 @@
     </tr>
     <tr>
         <td>How do I Subscribe?</td>
-        <td>Subscribe to eForm Approved by the Front Desk Event<br><pre></pre>curl -X POST 
+        <td>Subscribe to eForm Approved at the Front Desk Event<br><pre></pre>curl -X POST 
 --header "Content-Type: application/json" 
 --header "Accept: application/json" 
 --header "Authorization: Bearer xxxxxx" 
 -d "{
   \"subscription\": {
-    \"event_type\": \"eForm Approved by the Front Desk\",
+    \"event_type\": \"eForm Approved at the Front Desk\",
     \"entity\": \"HR_Personal_Action\",
     \"domain\": \"edu.byu\"
   }
@@ -69,14 +69,14 @@
     </tr>
     <tr>
         <td>How do I Unsubscribe?</td>
-        <td>Unsubscribe from eForm Approved by the Front Desk  Event<br><pre>curl -X DELETE 
+        <td>Unsubscribe from eForm Approved at the Front Desk  Event<br><pre>curl -X DELETE 
 --header "Accept: application/json" 
 --header "Authorization: Bearer xxxxxx"
 "https://api.byu.edu:443/domains/eventhub/1.0.0/subscriptions/edu.byu/HR_Personal_Action/eForm%20Approved%20by%20the%20Front%20Desk"</pre></td>
     </tr>
     <tr>
         <td>What does the secure_url return?</td>
-        <td>The callback URL will return the eForm sepecified by the response.</td>
+        <td>The callback URL will return the eForm sepecified at the response.</td>
     </tr>
     <tr>
         <td>How do I access a history of these events?</td>
