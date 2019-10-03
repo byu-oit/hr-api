@@ -37,7 +37,6 @@
       "event_body": {
         "byu_id": "123456789",
         "net_id": "cougar",
-        "updated_by": "brigham",
         "callback": "https://api.byu.edu/domains/erp/hr/eform/v1?form_id=1234567",
         "form_id": "1234567",
         "effective_date": "2018-07-23"
