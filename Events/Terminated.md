@@ -25,7 +25,7 @@
       },
       "filters": {
         "filter": {
-          "filter_name": "deptid",
+          "filter_name": "department_id",
           "filter_value": "0605"
         }
       },
