@@ -3,7 +3,7 @@
 <table align="center">
     <tr>
         <td>Description</td>
-        <td>The HR system will raise an event when maritak status is added, changed, or deleted.<br>The address is considered public directory information and it is included in the event message. In the rare case that a person's record is restricted or the address is unlisted, a secure URL is provided for business applications that are authorized.</td>
+        <td>The HR system will raise an event when marital status is added, changed, or deleted.<br>The address is considered public directory information and it is included in the event message. In the rare case that a person's record is restricted or the address is unlisted, a secure URL is provided for business applications that are authorized.</td>
     </tr>
     <tr>
         <td>Filters</td>
