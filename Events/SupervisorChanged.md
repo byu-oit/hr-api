@@ -3,7 +3,7 @@
 <table align="center">
   <tr>
     <td>Description</td>
-    <td>The HR system will raise an event for all subordinates of a person when they change, or for the person themself if it is known that their supervisor has changed.<br>Because employee job information is not public, a secur callback URL is provided for business applications that are authorized.</td>
+    <td>The HR system will raise an event for all subordinates of a person when they change, or for the person themself if it is known that their supervisor has changed.<br>Because employee job information is not public, a secure callback URL is provided for business applications that are authorized.</td>
   </tr>
   <tr>
     <td>Examples</td>
@@ -13,7 +13,7 @@
       "event_header": {
         "domain": "edu.byu",
         "entity": "HR_Personal_Action",
-        "event_type": "Job Changed",
+        "event_type": "Supervisor Changed",
         "event_id": "2021020916565390201"
       },
       "filters": {
@@ -56,6 +56,6 @@
   </tr>
   <tr>
     <td>What does the callback return?</td>
-    <td>The callback URL will return Job Code data for the specified byu_id.</td>
+    <td>The callback URL will return Supervisor Changed data for the specified byu_id.</td>
   </tr>
 </table>
