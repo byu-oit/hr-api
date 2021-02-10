@@ -25,8 +25,10 @@
       "event_body": {
         "byu_id": "123456789",
         "net_id": "gocougars",
-        "effective_date": "2021-02-09"
-        "callback": "https://api.byu.edubyuapi/employees/v1/123456789/jobs"
+        "updated_by": "PS",
+        "effective_date": "2021-02-09",
+        "callback": "https://api.byu.edu/byuapi/employees/v1/123456789/jobs",
+        "former_supervisor_id": "987654321"
       }
     }
   }
