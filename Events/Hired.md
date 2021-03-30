@@ -12,7 +12,7 @@
     "event": {
       "event_header": {
         "domain": "edu.byu",
-        "entity": "HR Personal Action",
+        "entity": "HR_Personal_Action",
         "event_type": "Hired",
         "event_id": "2016092108114722601"
       },
